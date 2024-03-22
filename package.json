@@ -1,0 +1,37 @@
+{
+  "name": "utharum",
+  "version": "1.0.0",
+  "description": "An easy to use vanilla JavaScript plug-in without production dependencies for displaying images, videos, or, through custom sources, anything you want in a clean overlying box.",
+  "author": "KylieSimonis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KoleSchimmel/utharum.git/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "fslightbox",
+    "vanilla javascript fslightbox",
+    "quia",
+    "impedit",
+    "reiciendis",
+    "esse"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoleSchimmel/utharum.git"
+  },
+  "scripts": {
+    "w": "webpack-dev-server --host 0.0.0.0",
+    "p": "webpack --config webpack.prod.config.js && cp index.js fslightbox.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
